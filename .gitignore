@@ -22,4 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-C:\LearnX\react_blog\src\.env
+#env
+.env
+# C:\LearnX\react_blog\src\.env
