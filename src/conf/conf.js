@@ -1,3 +1,5 @@
+import React from 'react';
+
 const conf = {
   appwriteUrl : String(process.env.REACT_APP_APPWRITE_PROJECT_URL),
   appwriteProjectId: String(process.env.REACT_APP_APPWRITE_PROJECT_ID),
