@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import Protected from './components/AuthLayout.jsx'
 import store from './store/store.js'
-import {Home, Login, Signup, AllPost, AddPost, EditPost,Post} from './pages/index.js'
+import {Home, Login, Signup, AllPosts, AddPost, EditPost,Post} from './pages/index.js'
 
 
 
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
     path : "/all-posts",
     element : (
       <Protected  authentication = {false}>
-        <AllPost/>
+        <AllPosts/>
       </Protected>
     )
   },

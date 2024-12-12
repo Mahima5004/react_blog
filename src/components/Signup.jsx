@@ -7,7 +7,7 @@ import Logo from './Logo'
 import { useForm } from 'react-hook-form'
 import { useDispatch } from 'react-redux'
 import { login } from '../store/authSlice'
-import {login} from '../store/authSlice'
+import {logout} from '../store/authSlice'
 
 
 function Signup() {

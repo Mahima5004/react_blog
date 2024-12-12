@@ -3,7 +3,7 @@ import React, { useId } from 'react'
 //importing data form child to parent or from lower to upper component
 const Input = React.forwardRef(function Input(
     {label, type='text',className = '', ...props},ref){
-        const id = useId
+        const id = useId()
         return (
             <div className='w-full'>
                 {label && (
